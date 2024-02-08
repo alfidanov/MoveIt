@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "GlzCNcn5nUid3ZPTfqjJ415/QE4dRKl2c8yso68krLaHc5dMeUlnvkXlY59HyfgFp2pqbmKqsCGy1c6VDJaWPA==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\Playground\\MoveIt\\MoveIt\\MoveIt.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://doc-automation.vmware.com:8081/nexus/service/local/nuget/GTIX-group/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

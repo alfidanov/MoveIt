@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MoveIt.Sdk.Tires.TireSpec">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAQAAAgAAAAA=</HashCode>
+      <FileName>Tires\TireSpec.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Type" />
+      <Property Name="Pressure" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MoveIt.Sdk.Tires.WinterTireSpec">
+    <Position X="6.25" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="MoveIt.Sdk.Tires.TireSpec" ManuallyRouted="true">
+      <Path>
+        <Point X="8" Y="1.796" />
+        <Point X="8" Y="2.619" />
+        <Point X="7" Y="2.619" />
+        <Point X="7" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAABAAAAAAAAAAAAAAAAAEAAAQAAAAAAAAA=</HashCode>
+      <FileName>Tires\WinterTireSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveIt.Sdk.Tires.SummerTireSpec">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAEAAAQAAAAAAAAA=</HashCode>
+      <FileName>Tires\SummerTireSpec.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveIt.Sdk.Vehicles.CarFactory">
+    <Position X="11" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAA=</HashCode>
+      <FileName>Vehicles\CarFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveIt.Sdk.Vehicles.MotorcycleFactory">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Vehicles\MotorcycleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveIt.Sdk.Vehicles.Motorcycle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Vehicles\Motorcycle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MoveIt.Sdk.Vehicles.Car" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAg=</HashCode>
+      <FileName>Vehicles\Car.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MoveIt.Sdk.Tires.Builders.SummerTireSpecBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAACAAAAAiAACAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\Builders\SummerTireSpecBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MoveIt.Sdk.Tires.Builders.TireSpecBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\Builders\TireSpecBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MoveIt.Sdk.Tires.Builders.WinterTireSpecBuilder" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAABAAAAgAAAAAAAAAAAiAACAAABAAAAAAA=</HashCode>
+      <FileName>Tires\Builders\WinterTireSpecBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="MoveIt.Sdk.Tires.TirePressure">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEIAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\TirePressure.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UnitType" />
+    </ShowAsAssociation>
+  </Struct>
+  <Struct Name="MoveIt.Sdk.Tires.TireTemperature">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEIAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\TireTemperature.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UnitType" />
+    </ShowAsAssociation>
+  </Struct>
+  <Interface Name="MoveIt.Sdk.IVehicle">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MoveIt.Sdk.IMotorcycle" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="MoveIt.Sdk.IVehicle" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="1.853" />
+        <Point X="3" Y="2.375" />
+        <Point X="2" Y="2.375" />
+        <Point X="2" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IMotorcycle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MoveIt.Sdk.ICar">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>ICar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MoveIt.Sdk.Tires.Builders.ISummerTireMaxTemperatureBuilder">
+    <Position X="8.25" Y="7.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\Builders\ISummerTireMaxTemperatureBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MoveIt.Sdk.Tires.Builders.ITireBuilder&lt;T&gt;">
+    <Position X="12.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\Builders\ITireBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MoveIt.Sdk.Tires.Builders.ITirePressureBuilder&lt;T&gt;">
+    <Position X="6" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\Builders\ITirePressureBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MoveIt.Sdk.Tires.Builders.ITireSpecBuilder">
+    <Position X="4.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\Builders\ITireSpecBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MoveIt.Sdk.Tires.Builders.IWinterTireMinTemperatureBuilder">
+    <Position X="8.25" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Tires\Builders\IWinterTireMinTemperatureBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MoveIt.Sdk.Tires.Builders.IWinterTireThicknessBuilder">
+    <Position X="10.25" Y="9.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\Builders\IWinterTireThicknessBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="MoveIt.Sdk.Tires.TireTemperatureUnitType">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\TireTemperatureUnitType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MoveIt.Sdk.Tires.TireType">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\TireType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="MoveIt.Sdk.Tires.TirePressureUnitType">
+    <Position X="11" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAACAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tires\TirePressureUnitType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

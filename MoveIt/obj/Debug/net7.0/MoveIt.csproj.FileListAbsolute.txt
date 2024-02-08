@@ -1,0 +1,5 @@
+C:\Work\Playground\MoveIt\MoveIt\obj\Debug\net7.0\MoveIt.csproj.AssemblyReference.cache
+C:\Work\Playground\MoveIt\MoveIt\obj\Debug\net7.0\MoveIt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Playground\MoveIt\MoveIt\obj\Debug\net7.0\MoveIt.AssemblyInfoInputs.cache
+C:\Work\Playground\MoveIt\MoveIt\obj\Debug\net7.0\MoveIt.AssemblyInfo.cs
+C:\Work\Playground\MoveIt\MoveIt\obj\Debug\net7.0\MoveIt.csproj.CoreCompileInputs.cache
